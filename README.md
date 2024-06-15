@@ -1,4 +1,6 @@
-# Testssl.sh-2-Text
-Quick and dirty bash script to parse testssl.sh .log files into a .txt file, sorting affected hosts by which vulnerabilities/misconfigurations were identified. This script comes in particularly handy when you have many testssl.sh log files to parse through.
+# Testssl Log Parser - Bash
+**Note: this is now deprecated, and has been replaced with a far more efficient [script written in Python3](https://github.com/AakashDadhich/testssl-parser-python)**
 
-Currently rewriting in Python using the in-built CSV library to parse the CSV, which will improve the efficiency (and readability) of the code significantly. 
+---
+
+Quick and dirty bash script to parse testssl.sh .log files into a .txt file, sorting affected hosts by which vulnerabilities/misconfigurations were identified. This script comes in particularly handy when you have many testssl.sh log files to parse through, but only outputs most common issues found.
